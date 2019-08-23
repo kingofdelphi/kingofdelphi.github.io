@@ -11,7 +11,7 @@ const Main = () => {
         <div styleName='main'>
             <div styleName='projects-container'>
                 <GameLink 
-                    href='/cube'
+                    href='/cube_solver/dist'
                     title='Cube Solver'
                     description='AI solver for game from Simon Tathams Puzzle Collection'
                 />
@@ -26,7 +26,7 @@ const Main = () => {
                     description='Demonstrates collision detection and response'
                 />
                 <GameLink 
-                    href='/cycle'
+                    href='/bicycle/dist'
                     title='Cycle Game'
                     description='Cycle game using verlet physics'
                 />
