@@ -1,0 +1,25 @@
+.game-link {
+    display: inline-block;
+    border: 3px solid transparent;
+    transition:.5s;
+    &:hover {
+        border: 3px solid silver;
+    }
+    border-radius:5px;
+    background: rgb(230, 230, 230);
+    .title {
+        font-size: 25px;
+        text-align: center;
+        padding: 10px;
+    }
+    .description {
+        padding: 10px;
+        text-align: center;
+    }
+    a {
+        color: black;
+        text-decoration: none;
+        display: block;
+    }
+}
+

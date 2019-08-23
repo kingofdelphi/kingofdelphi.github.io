@@ -2,10 +2,9 @@
  * Created by uttam on 11/7/17.
  */
 import React from 'react';
-import PropTypes from 'prop-types';
 import { withRouter, Switch, Route, BrowserRouter as Router } from 'react-router-dom';
 
-import './css/styles.scss';
+import Main from './Main';
 
 const Root = () => (
     <main>
@@ -14,9 +13,7 @@ const Root = () => (
                 path={'/'}
                 exact
                 render={(props) => {
-                    return (
-                        <div>Hello world</div>
-                    );
+                    return <Main />;
                 }}
             />
         </Switch>

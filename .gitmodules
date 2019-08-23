@@ -1,0 +1,9 @@
+[submodule "cube_solver"]
+	path = cube_solver
+	url = https://github.com/kingofdelphi/cube_solver
+[submodule "bicycle"]
+	path = bicycle
+	url = https://github.com/kingofdelphi/bicycle
+[submodule "neverball"]
+	path = neverball
+	url = https://github.com/kingofdelphi/neverball

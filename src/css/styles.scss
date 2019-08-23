@@ -1,0 +1,25 @@
+
+.main {
+    h2 {
+        text-align: center;
+    }
+    ul {
+        list-style: none;
+        color: black;
+        li { 
+            padding: 20px;
+            font-size: 20px;
+            a {
+                text-decoration: none;
+                display: block;
+            }
+            &:hover {
+                background: silver;
+            }
+        }
+    }
+    .projects-container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
