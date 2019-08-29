@@ -1,5 +1,3 @@
-mkdir -p projects
-
 cd 2d_physics_engine
 yarn
 yarn build
@@ -14,6 +12,9 @@ cd cube_solver
 yarn
 yarn build
 cd ..
+
+rm -rf projects
+mkdir projects
 
 cp -r 2d_physics_engine/dist projects/2d_physics_engine
 cp -r bicycle/dist projects/bicycle
