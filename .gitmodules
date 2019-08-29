@@ -7,3 +7,6 @@
 [submodule "neverball"]
 	path = neverball
 	url = https://github.com/kingofdelphi/neverball
+[submodule "2d_physics_engine"]
+	path = 2d_physics_engine
+	url = https://github.com/kingofdelphi/2d_physics_engine
