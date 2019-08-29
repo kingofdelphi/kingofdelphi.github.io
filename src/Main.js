@@ -9,6 +9,8 @@ import styles from './css/styles.scss';
 const Main = () => {
     return (
         <div styleName='main'>
+            <h2>My name is Uttamraj Khanal</h2>
+            <p>These are my projects</p>
             <div styleName='projects-container'>
                 <GameLink 
                     href='/cube_solver/dist'
@@ -21,7 +23,7 @@ const Main = () => {
                     description='Open source game clone in vanilla JS'
                 />
                 <GameLink 
-                    href='#'
+                    href='/2d_physics_engine/dist'
                     title='2d Physics Engine'
                     description='Demonstrates collision detection and response'
                 />
