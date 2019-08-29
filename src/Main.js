@@ -13,22 +13,22 @@ const Main = () => {
             <p>These are my projects</p>
             <div styleName='projects-container'>
                 <GameLink 
-                    href='/cube_solver'
+                    href='/projects/cube_solver'
                     title='Cube Solver'
                     description='AI solver for game from Simon Tathams Puzzle Collection'
                 />
                 <GameLink 
-                    href='/neverball'
+                    href='/projects/neverball'
                     title='Neverball'
                     description='Open source game clone in vanilla JS'
                 />
                 <GameLink 
-                    href='/2d_physics_engine'
+                    href='/projects/2d_physics_engine'
                     title='2d Physics Engine'
                     description='Demonstrates collision detection and response'
                 />
                 <GameLink 
-                    href='/bicycle'
+                    href='/projects/bicycle'
                     title='Cycle Game'
                     description='Cycle game using verlet physics'
                 />
