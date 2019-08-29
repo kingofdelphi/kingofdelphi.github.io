@@ -6,7 +6,8 @@
   "author": "Uttam Khanal <uttam_khanal12@hotmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "build": "webpack"
   },
   "dependencies": {
     "react": "^16.9.0"
