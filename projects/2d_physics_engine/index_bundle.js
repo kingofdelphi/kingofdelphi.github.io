@@ -309,6 +309,10 @@ const objects = [
     getRect(w / 2, h - fh / 2, w, fh, 0),
 ];
 
+for (let i = 0; i < 30; ++i) {
+    objects.push(getRect(w / 2 + (Math.random() * 20 - 10), (i - 30) * 20 + i * 10, 20, 20, 1));
+}
+
 const main = document.getElementById('rem');
 let down, cur;
 main.addEventListener('mousedown', function (e) {
@@ -766,7 +770,7 @@ exports = module.exports = __webpack_require__(7)(undefined);
 
 
 // module
-exports.push([module.i, "* {\n    margin: 0;\n    padding: 0;\n}\n\n#root {\n    width: 100vw;\n    height: 100vh;\n    display: flex;\n    flex-direction: column;\n    overflow: hidden;\n}\n\nbutton {\n    padding: 10px;\n}\n\n#rem {\n    flex: 1;\n}\n\n.header {\n\tbackground: silver;\n}\n", ""]);
+exports.push([module.i, "* {\n    margin: 0;\n    padding: 0;\n}\n\n#root {\n    width: 100vw;\n    height: 100vh;\n    display: flex;\n    flex-direction: column;\n    overflow: hidden;\n}\n\nbutton {\n    padding: 10px;\n}\n\n#rem {\n    flex: 1;\n}\n\n.header {\n\tbackground: silver;\n}\n\n.edge-btns {\n    display: inline-block;\n    border: 1px solid grey;\n    padding: 10px;\n}\n\n.edge-btns div {\n    margin-top: 10px;\n}\n\n.btns {\n    display: flex;\n    justify-content: space-between;\n}\n\n.poly-size {\n    display: inline-block;\n}\n\n.poly-size > * {\n    display: block;\n}\n", ""]);
 
 // exports
 
