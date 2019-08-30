@@ -10,6 +10,7 @@ const Main = () => {
     return (
         <div styleName='main'>
             <h2>My name is Uttamraj Khanal</h2>
+            <p>I am a software engineer</p>
             <p>These are my projects</p>
             <div styleName='projects-container'>
                 <GameLink 
