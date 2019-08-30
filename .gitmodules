@@ -10,3 +10,6 @@
 [submodule "2d_physics_engine"]
 	path = 2d_physics_engine
 	url = https://github.com/kingofdelphi/2d_physics_engine
+[submodule "car_game"]
+	path = car_game
+	url = https://github.com/kingofdelphi/car_game.git

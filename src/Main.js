@@ -33,6 +33,11 @@ const Main = () => {
                     title='Cycle Game'
                     description='Cycle game using verlet physics'
                 />
+                <GameLink 
+                    href='/projects/car_game'
+                    title='2d Street Racing'
+                    description='Street racing car game'
+                />
             </div>
         </div>
     );
