@@ -1,25 +1,31 @@
 .game-link {
-    display: inline-block;
-    border: 3px solid transparent;
-    transition:.5s;
-    &:hover {
-        border: 3px solid silver;
-    }
-    border-radius:5px;
-    background: rgb(230, 230, 230);
-    .title {
-        font-size: 25px;
-        text-align: center;
-        padding: 10px;
-    }
-    .description {
-        padding: 10px;
-        text-align: center;
-    }
+  margin: 10px;
+  padding: 15px;
+  display: inline-block;
+  transition:.5s;
+  background: rgba(skyblue, .5);
+  width: 300px;
+  &:hover {
+    background: rgba(skyblue, 1);
     a {
-        color: black;
-        text-decoration: none;
-        display: block;
+      color: white;
     }
+  }
+  border-radius:2px;
+  .title {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+  }
+  .description {
+    padding: 10px;
+    text-align: center;
+  }
+  a {
+    transition: .5s;
+    color: black;
+    text-decoration: none;
+    display: block;
+  }
 }
 

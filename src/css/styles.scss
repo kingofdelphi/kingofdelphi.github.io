@@ -1,25 +1,56 @@
+body {
+  * { 
+    margin: 0;
+    padding: 0;
+  }
+  background: white;
+}
 
 .main {
-    h2 {
-        text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  ul {
+    list-style: none;
+    color: black;
+    li { 
+      padding: 20px;
+      font-size: 20px;
+      a {
+        text-decoration: none;
+        display: block;
+      }
+      &:hover {
+        background: silver;
+      }
     }
-    ul {
-        list-style: none;
-        color: black;
-        li { 
-            padding: 20px;
-            font-size: 20px;
-            a {
-                text-decoration: none;
-                display: block;
-            }
-            &:hover {
-                background: silver;
-            }
-        }
-    }
-    .projects-container {
-        display: flex;
-        justify-content: space-between;
-    }
+  }
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+.profile {
+  display: flex;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  background-size: 100% 100%;
+  //background: grey;
+  background-image: url("/assets/profile.jpeg");
+}
+
+.profile-info {
+  margin-left: 20px;
+  .name {
+    font-size: 1.5em;
+  }
+
+  .description {
+    color: navy;
+  }
 }
