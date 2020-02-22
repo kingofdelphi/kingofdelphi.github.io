@@ -1,19 +1,8 @@
 if [ "$1" = "all" ]; then
   echo "Building dependencies"
-  cd 2d_physics_engine
-  yarn
-  yarn build
-  cd ..
 
-  cd bicycle
-  yarn
-  yarn build
-  cd ..
-
-  cd cube_solver
-  yarn
-  yarn build
-  cd ..
+  # build all submodules containing package.json
+  git submodule foreach '[ -f "package.json" ] && yarn build || :'
 
   rm -rf projects
   mkdir projects
