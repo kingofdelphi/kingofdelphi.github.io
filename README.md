@@ -12,6 +12,9 @@ git submodule foreach git checkout master
 
 nvm use 10.0.0
 
+## to build subproject with custom public url use this
+## PUBLIC_URL="/projects/machine_learning_with_javascript/" yarn build
+
 ## to build profile page only
 ./build.sh
 
