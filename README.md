@@ -6,14 +6,14 @@ git submodule foreach git checkout master
 
 ## build portfolio page
 
-### use this particular node version
-### some projects use webpack 4, while some use webpack 2
-### in case any error occurs, need to build the projects individually with correct node version
+#### use this particular node version
+#### some projects use webpack 4, while some use webpack 2
+#### in case any error occurs, need to build the projects individually with correct node version
 
 nvm use 10.0.0
 
 ## to build subproject with custom public url use this
-## PUBLIC_URL="/projects/machine_learning_with_javascript/" yarn build
+PUBLIC_URL="/projects/machine_learning_with_javascript/" yarn build
 
 ## to build profile page only
 ./build.sh
