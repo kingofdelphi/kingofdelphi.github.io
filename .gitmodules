@@ -13,3 +13,6 @@
 [submodule "car_game"]
 	path = car_game
 	url = https://github.com/kingofdelphi/car_game.git
+[submodule "machine_learning_with_javascript"]
+	path = machine_learning_with_javascript
+	url = https://github.com/kingofdelphi/machine_learning_with_javascript
