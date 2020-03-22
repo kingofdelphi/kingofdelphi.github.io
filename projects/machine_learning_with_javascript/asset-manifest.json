@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/projects/machine_learning_with_javascript/static/css/main.10c7afc3.chunk.css",
-    "main.js": "/projects/machine_learning_with_javascript/static/js/main.fdbec7f1.chunk.js",
-    "main.js.map": "/projects/machine_learning_with_javascript/static/js/main.fdbec7f1.chunk.js.map",
+    "main.js": "/projects/machine_learning_with_javascript/static/js/main.4c34b431.chunk.js",
+    "main.js.map": "/projects/machine_learning_with_javascript/static/js/main.4c34b431.chunk.js.map",
     "runtime-main.js": "/projects/machine_learning_with_javascript/static/js/runtime-main.836bda8e.js",
     "runtime-main.js.map": "/projects/machine_learning_with_javascript/static/js/runtime-main.836bda8e.js.map",
-    "static/js/2.4a9dfeb8.chunk.js": "/projects/machine_learning_with_javascript/static/js/2.4a9dfeb8.chunk.js",
-    "static/js/2.4a9dfeb8.chunk.js.map": "/projects/machine_learning_with_javascript/static/js/2.4a9dfeb8.chunk.js.map",
+    "static/js/2.3894fac8.chunk.js": "/projects/machine_learning_with_javascript/static/js/2.3894fac8.chunk.js",
+    "static/js/2.3894fac8.chunk.js.map": "/projects/machine_learning_with_javascript/static/js/2.3894fac8.chunk.js.map",
     "index.html": "/projects/machine_learning_with_javascript/index.html",
-    "precache-manifest.e41557de0e3c1b31786194bbcddd4a80.js": "/projects/machine_learning_with_javascript/precache-manifest.e41557de0e3c1b31786194bbcddd4a80.js",
+    "precache-manifest.f0f750ef6b6bfee98413b6a4ff65e8e2.js": "/projects/machine_learning_with_javascript/precache-manifest.f0f750ef6b6bfee98413b6a4ff65e8e2.js",
     "service-worker.js": "/projects/machine_learning_with_javascript/service-worker.js",
     "static/css/main.10c7afc3.chunk.css.map": "/projects/machine_learning_with_javascript/static/css/main.10c7afc3.chunk.css.map",
-    "static/js/2.4a9dfeb8.chunk.js.LICENSE.txt": "/projects/machine_learning_with_javascript/static/js/2.4a9dfeb8.chunk.js.LICENSE.txt"
+    "static/js/2.3894fac8.chunk.js.LICENSE.txt": "/projects/machine_learning_with_javascript/static/js/2.3894fac8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.836bda8e.js",
-    "static/js/2.4a9dfeb8.chunk.js",
+    "static/js/2.3894fac8.chunk.js",
     "static/css/main.10c7afc3.chunk.css",
-    "static/js/main.fdbec7f1.chunk.js"
+    "static/js/main.4c34b431.chunk.js"
   ]
 }
