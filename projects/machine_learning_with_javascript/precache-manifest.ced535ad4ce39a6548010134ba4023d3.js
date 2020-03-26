@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8f98b32f8bdd5ad835077cd11ee43486",
+    "revision": "ae8f22272b8c1064bf67877d4b231064",
     "url": "/projects/machine_learning_with_javascript/index.html"
   },
   {
-    "revision": "90b485542bad7f595578",
+    "revision": "b61533e450872ed47ec4",
     "url": "/projects/machine_learning_with_javascript/static/css/main.10c7afc3.chunk.css"
   },
   {
-    "revision": "dd271c064a2b26a9b033",
-    "url": "/projects/machine_learning_with_javascript/static/js/2.3894fac8.chunk.js"
+    "revision": "ac8c174d1bdd9b3bbc84",
+    "url": "/projects/machine_learning_with_javascript/static/js/2.6b62104f.chunk.js"
   },
   {
     "revision": "02ffa7da192d1cc28c73c72de97ad01c",
-    "url": "/projects/machine_learning_with_javascript/static/js/2.3894fac8.chunk.js.LICENSE.txt"
+    "url": "/projects/machine_learning_with_javascript/static/js/2.6b62104f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "90b485542bad7f595578",
-    "url": "/projects/machine_learning_with_javascript/static/js/main.4c34b431.chunk.js"
+    "revision": "b61533e450872ed47ec4",
+    "url": "/projects/machine_learning_with_javascript/static/js/main.6dd2c4a0.chunk.js"
   },
   {
     "revision": "f54be06da646f3c47b6b",
